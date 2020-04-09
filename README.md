@@ -16,6 +16,8 @@ To run the algorithm on graphs from standard input:
 <weight of edge 2><end of edge 2> <end of edge 2>
 ...
 
+Note : The graph cannot have negative cycles.
+
 ```
 
 ## Sample Input
