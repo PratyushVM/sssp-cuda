@@ -63,7 +63,7 @@ int main(int argc, char **argv)
     cpu_g->edgelist = c_edgelist;
     cpu_g->distance = c_distance;
 
-    printf("From source vertex %d :\n",start);
+    printf("From source vertex %d :\n",start); 
 
     //printing distance of vertices from host memory
     printgraph(cpu_g);
