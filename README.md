@@ -18,7 +18,7 @@ In a file "sssp-cuda/edgelist.txt", edges in the form :
 <weight of edge 2><end of edge 2> <end of edge 2>
 ...
 
-Note : The graph cannot have negative cycles.
+Note : The graph cannot have negative weights.
 
 ```
 
