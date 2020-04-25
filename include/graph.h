@@ -6,8 +6,10 @@
 #define pii std::pair<int,int>
 #define piii std::pair<int,std::pair<int,int>>
 #define mp std::make_pair
-#define f first
-#define s second 
+
+#define nthreads 35592
+#define threads_per_block 256
+#define nblocks nthreads/threads_per_block + 1
 
 //declaration of class object - graph
 
