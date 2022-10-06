@@ -80,7 +80,7 @@ int main(int argc, char **argv)
     //printf("From source vertex %d :\n",start); 
 
     //printing distance of vertices from host memory
-    //printgraph(cpu_g);
+    printgraph(cpu_g);
 
     //freeing memory allocated on GPU
     cudaFree(g_distance);
